@@ -1,0 +1,33 @@
+.container{
+    height:40px;
+    background-color: #000000;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    color:#ffff;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 10rem 0.6fr 0.5fr 1fr 10rem;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.left{
+    grid-column: 2/3;
+}
+.left>ul{
+    height:40px;
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.right{
+    grid-column: 4/5;
+}
+.right>ul{
+    height:40px;
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#pointer{
+    cursor: pointer;
+}

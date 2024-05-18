@@ -1,0 +1,16 @@
+.news_massionary{
+    display: grid;
+    grid-template-columns: 174.6px 1fr 0.5fr 0.5fr 174.6px;
+    height:450px;
+    padding-bottom: 40px;
+}
+.left-photo{
+    grid-column: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-photo{
+    grid-column: 3/5;
+    padding-left: 20px;
+}

@@ -1,0 +1,20 @@
+.newsblock{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:30px 0px 30px 0px;
+    border-bottom: 2px solid #eaeaea;
+}
+.newsimg{
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsimg>img{
+    height:243.24px;
+    width:300px;
+}
+.newscontent{
+    grid-column: 2/3;
+    padding-left: 25px;
+}

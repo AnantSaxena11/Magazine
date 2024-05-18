@@ -1,0 +1,36 @@
+.upper{
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    font-size:21px;
+}
+.video{
+    margin-top: 20px;
+    height:493.1px;
+    width:100vw;
+    background-color: #111111;
+    padding: 70px 0px;
+    margin: 0px -15px;
+    color:white;
+}
+.upper{
+    padding-left: 27%;
+}
+.videobox{
+    padding-left: 27%;
+}
+.text{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 143px;
+    font-size: 150px;
+    font-weight: 900;
+    top: 2700px;
+    font-family: 'Alegreya Sans', sans-serif;
+    background: -webkit-linear-gradient(#d17c78, #000);
+    background: -webkit-linear-gradient(#d17c78, #000);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Playfair Display', serif;
+    z-index: 0;
+}

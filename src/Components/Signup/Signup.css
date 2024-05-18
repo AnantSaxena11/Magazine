@@ -1,0 +1,43 @@
+.signup_container{
+    height: 305.75px;
+    background-color: #ffff;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+}
+.note1{
+    color: #222;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 4%;
+}
+.note1>span{
+    color: #222;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+}
+.note2{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    color:#696969;
+    font-size: 17px;
+}
+.email{
+    height:28.40px;
+    width:344.400px;
+    border: 0.5px solid #eaeaea;
+    font-size: 14px;
+    padding:6px 6px 6px 6px;
+    margin-right: 10px;
+}
+button{
+    background-color: #111;
+    border-color: #111;
+    color: #fff;
+    border-radius: 0px;
+    padding: 10px 40px;
+    font-weight: 600;
+
+}
